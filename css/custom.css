@@ -46,7 +46,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #8cdeec;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #7bcddb;
 }
 
 .light {
@@ -259,7 +259,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .download-section {
@@ -282,7 +282,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .download-section {
@@ -306,17 +306,18 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #8cdeec;
+    min-width: 150px;
+    color: #8cdeec;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #8cdeec;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #8cdeec;
 }
 
 ul.banner-social-buttons {
