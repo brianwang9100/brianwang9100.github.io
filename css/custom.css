@@ -111,6 +111,12 @@ a:focus {
     background-color: transparent;
 }
 
+.btn-header:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+
+}
+
 .navbar-custom .nav li.active {
     outline: 0;
 }
@@ -259,7 +265,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .download-section {
@@ -282,11 +288,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 10px;
+        padding-top: 50px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
     #map {
