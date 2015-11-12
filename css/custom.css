@@ -20,28 +20,37 @@ html {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 5 25;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    margin: 0 0 20 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
 p {
     margin: 0 0 25px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
+        margin: 0 0 25px;
+        font-size: 14px;
+        line-height: 1;
     }
 }
 
@@ -378,4 +387,32 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.portfolio-text {
+    margin: 0 0 5px;
+}
+
+.project-title {
+    margin-top: 5px;
+}
+
+h3 a {
+    margin-top: 5px;
+}
+
+.portfolio-image {
+    align-self: center;
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+}
+
+#project-links {
+    margin-left: 25%;
 }
